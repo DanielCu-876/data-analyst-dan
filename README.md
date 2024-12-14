@@ -124,3 +124,89 @@ Deliverables:
     A summarized report with the number of positions that meet the criterion.
     Visualizations to represent the distribution of positions by maximum hourly rate.
     Recommendations for further analysis or policy adjustments based on findings.
+
+Project 3
+
+    Implementation of Data Quality Control Measures at UCW within the Human Resources department, specifically the disciplinary actions comitee. 
+
+Project Description:
+
+    Data Quality Control Initiative within UCW Human Resources department's disciplinary comitee
+
+Project Title:
+
+    Implementation of Data Quality Control Measures within UCW’s Disciplinary Actions Committee
+
+Objective:
+    
+    The primary objective of this project is to establish a robust Data Quality Control (DQC) framework tailored to the Human Resources department, specifically addressing the Disciplinary Actions Committee’s data. This initiative aims to enhance the accuracy, completeness, and consistency of disciplinary records, ensuring compliance with internal policies, regulatory requirements, and enabling data-driven decision-making.
+
+Scope:
+
+The project will focus on the following key areas:
+
+    Data Profiling: Evaluating existing disciplinary records to assess quality and identify key issues.
+    Data Cleansing: Developing processes to correct inaccuracies, remove duplicates, and address inconsistencies.
+    Data Validation: Setting validation rules to ensure integrity for both historical and new disciplinary action records.
+    Monitoring and Reporting: Creating dashboards to track data quality metrics for HR operations.
+
+Methodology:
+
+    Current State Assessment:
+        Review existing disciplinary action records and workflows within the HR department.
+        Identify key issues such as incomplete records, duplicate entries, and inconsistent data formatting.
+
+    Data Profiling:
+        Use AWS Glue DataBrew to profile datasets, assessing completeness, accuracy, validity, and consistency.
+        Highlight critical gaps in key data fields such as case identifiers, dates, and employee details.
+
+    Establish Data Quality Metrics:
+        Define and track metrics, including:
+            Error rates (e.g., incorrect case information).
+            Record duplication levels.
+            Timeliness of data entry and updates.
+        Set baseline KPIs for ongoing improvements.
+
+    Data Cleansing Processes:
+        Use AWS Glue DataBrew to:
+            Remove duplicate or redundant records.
+            Correct errors in case details (e.g., misclassified actions or incomplete employee information).
+            Standardize data formats, particularly for dates, names, and action classifications.
+
+    Validation Rules and Procedures:
+        Create automated validation checks for new disciplinary records using AWS Glue DataBrew's validation features.
+        Define standard operating procedures for data entry to ensure consistency.
+
+    Monitoring and Reporting:
+        Store cleansed data in AWS S3 for future integration with Tableau or Power BI for visualization.
+        Develop real-time dashboards to monitor data quality metrics.
+        Automate periodic reporting to identify trends and highlight deviations from quality standards.
+
+    Training and Best Practices:
+        Provide training sessions to HR staff on data handling and the importance of quality assurance.
+        Distribute user-friendly guidelines to ensure adherence to best practices in record-keeping.
+
+    Feedback Mechanism:
+        Establish a feedback loop for continuous improvement, enabling committee members to report data quality issues and suggest enhancements.
+
+Tools and Technologies:
+
+    Data Profiling and Cleansing: AWS Glue DataBrew for profiling, cleaning, and validation tasks.
+    Data Storage and Processing: AWS S3 for scalable data storage.
+    Visualization Tools: Tableau or Power BI for dashboards.
+    Automation Scripts: Python and SQL for additional data transformations if needed.
+
+Deliverables:
+
+    A Data Quality Control plan tailored to the Disciplinary Actions Committee’s needs.
+    Documented metrics and KPIs for monitoring data quality.
+    A cleaned and standardized dataset of disciplinary actions stored in AWS S3.
+    Training materials and sessions for HR staff and committee members.
+    Dashboards to visualize data quality metrics and trends.
+
+Timeline:
+
+    Weeks 1–2: Current state assessment and data profiling of disciplinary action records.
+    Weeks 3–4: Develop and implement data cleansing processes using AWS Glue DataBrew.
+    Weeks 5–6: Establish validation rules and deploy monitoring dashboards.
+    Weeks 7–8: Conduct staff training and finalize a feedback mechanism.

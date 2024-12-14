@@ -3,27 +3,29 @@
 Project 1 
 
 Project Description :
-Analyzing the workforce to determine the number of males employed.
+
+    Analyzing the workforce to determine the number of males employed.
 
 Project Title :
 
-Workforce Gender Distribution Analysis
+    Workforce Gender Distribution Analysis
 
 Objective
-The calculate and describe the number of males employed in the workforce.
+    
+    The calculate and describe the number of males employed in the workforce.
 
 Dataset
 
-Year: The calendar year of the data (e.g., 2023).
-Exempt/Union: Indicates whether the employee belongs to a union or is exempt from it.
-Classification: Job classification, including grouped or individual roles.
-Position Title: The title of the position, which may be specific or aggregated across multiple roles.
-Data Category: Specifies whether the data is detailed for an individual role or aggregated across multiple roles.
-Minimum Hourly Rate: The minimum hourly wage for a role (if applicable).
-Maximum Hourly Rate: The maximum hourly wage for a role (if applicable).
-Female: Number of female employees in the given job classification.
-Male: Number of male employees in the given job classification.
-Total: Total number of employees in the given job classification (sum of male and female employees).
+    Year: The calendar year of the data (e.g., 2023).
+    Exempt/Union: Indicates whether the employee belongs to a union or is exempt from it.
+    Classification: Job classification, including grouped or individual roles.
+    Position Title: The title of the position, which may be specific or aggregated across multiple roles.
+    Data Category: Specifies whether the data is detailed for an individual role or aggregated across multiple roles.
+    Minimum Hourly Rate: The minimum hourly wage for a role (if applicable).
+    Maximum Hourly Rate: The maximum hourly wage for a role (if applicable).
+    Female: Number of female employees in the given job classification.
+    Male: Number of male employees in the given job classification.
+    Total: Total number of employees in the given job classification (sum of male and female employees).
 
 This dataset provides detailed information on workforce demographics, salary ranges, and job roles, enabling descriptive analysis of employment trends, gender distribution, and pay equity.
 
@@ -61,24 +63,27 @@ Recommendations:
 
 Tools and Technologies 
 
-AWS S3, DataBrew, DataGLue.
+    AWS S3, DataBrew, DataGLue.
 
 Deleverables
 
-A report summarizing the findings, visualizations of gender distribution, and actionable recommendations.
+    A report summarizing the findings, visualizations of gender distribution, and actionable recommendations.
 
 
 
 Project 2 
 
 Project Description:
-Exploring the workforce dataset to identify how many positions have a maximum hourly rate that is at least double the current minimum wage in British Columbia, which is $17.40.
+    
+    Exploring the workforce dataset to identify how many positions have a maximum hourly rate that is at least double the current minimum wage in British Columbia, which is $17.40.
 
 Project Title:
-Analysis of Positions with High Maximum Hourly Rates
+    
+    Analysis of Positions with High Maximum Hourly Rates
 
 Objective:
-To determine the number of positions with a maximum hourly rate of at least $34.80 (twice the minimum wage in British Columbia).
+    
+    To determine the number of positions with a maximum hourly rate of at least $34.80 (twice the minimum wage in British Columbia).
 
 Dataset
 

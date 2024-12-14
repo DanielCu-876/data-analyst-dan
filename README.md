@@ -25,12 +25,16 @@ Female: Number of female employees in the given job classification.
 Male: Number of male employees in the given job classification.
 Total: Total number of employees in the given job classification (sum of male and female employees).
 
+This dataset provides detailed information on workforce demographics, salary ranges, and job roles, enabling descriptive analysis of employment trends, gender distribution, and pay equity.
+
 Methodology
 
 Data Collection and Preparation:
 
     Load the dataset into AWS using data ingestion methods.
     Perform data cleaning to address missing values, correct data types, and remove duplicates.
+
+
 
 Descriptive Statistics:
 
@@ -54,5 +58,11 @@ Recommendations:
 
 Tools and Technologies 
 
+AWS S3, DataBrew, DataGLue.
 
 Deleverables
+
+A report summarizing the findings, visualizations of gender distribution, and actionable recommendations.
+
+
+
